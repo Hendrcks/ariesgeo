@@ -382,6 +382,6 @@ python-qgis.bat tests/run_tests.py
 
 ## Author & License
 
-- **Author:** AriesPlus (*Elishaetikosin*)
+- **Author:** AriesPlus Geospatial Solutions (*Hendricks*)
 - **Repository:** [https://github.com/Hendrcks/ariesgeo](https://github.com/Hendrcks/ariesgeo)
 - **License:** Distributed under the **GNU General Public License v3.0 (`GPL-3.0`)**. See [`LICENSE`](LICENSE) for details.
