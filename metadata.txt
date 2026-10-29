@@ -1,0 +1,22 @@
+# This file contains metadata for the AriesGeo Toolbox QGIS plugin.
+
+[general]
+name=AriesGeo Toolbox
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+description=Scientific Geoprocessing: Landsat 7 SLC-off Gapfill, Raster Preprocessing, Terrain & Hydrology, Spatial Statistics & Suitability, Data Hub, and Quality Workflows.
+version=4.0.1
+author=AriesPlus Geospatial Solutions
+email=ariesplusgeo@gmail.com
+about=AriesGeo Toolbox v4.0 is a precision scientific geoprocessing suite for QGIS Desktop. It provides 100 modular Processing Toolbox algorithms organized into 7 scientific groups: (1) 01 · Place Finder & Geocoding: forward, reverse, batch, coordinate parsing, proximity, and offline gazetteer. (2) 02 · Landsat 7 SLC-off Gapfill: metadata inspection, scanline gap masking, donor ranking, co-registration, radiometric matching, IDW/TIN interpolation, two-scene & multi-donor compositing, and holdout validation. (3) 03 · Raster Preprocessing & Cloud Removal: sensor metadata, reflectance calibration, Landsat/Sentinel QA masks, grid alignment, VRT/COG export, and multi-temporal cloud replacement. (4) 04 · Terrain & Hydrology: DEM diagnostics, depression conditioning, slope, aspect, hillshade, TRI, TPI, D8/MFD routing, Strahler stream extraction, watershed delineation, and morphometry. (5) 05 · Spatial Statistics & Suitability: criteria standardization, AHP weighting, weighted/fuzzy overlay, KDE, IDW, Global & Local Moran's I (LISA), and Getis-Ord Gi*. (6) 06 · Data Hub & Acquisition: STAC search, catalog discovery, OSM extraction, and chunked downloads. (7) 07 · Quality Control & Workflows: layer integrity audits, alignment verification, preflight checks, recipe DAG execution, and SHA-256 provenance manifests. (Note: Map Layout Assistant retired in v4.0; spectral indices reside in AriesLegacy).
+tracker=https://github.com/Hendrcks/ariesgeo/issues
+repository=https://github.com/Hendrcks/ariesgeo
+tags=processing, raster, landsat, gapfill, slc-off, cloud-removal, terrain, hydrology, dem, watershed, spatial-statistics, suitability, ahp, stac, data-hub, geocoding, quality-control
+homepage=https://github.com/Hendrcks/ariesgeo
+category=Raster
+hasProcessingProvider=yes
+icon=icons/icon.png
+experimental=False
+deprecated=False
+changelog=4.0.1 - Security hardening (strict HTTP/HTTPS scheme validation via verified TLS http.client, explicit narrow exception handling across all modules) and unified USGS LLHM Cloud, Shadow & SLC-Off recovery engine.
+    4.0.0 - Major v4.0 release with 100 scientific Processing algorithms across 7 groups, native tabified Place Finder dock, and updated branding.
