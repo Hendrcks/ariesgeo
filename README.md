@@ -2,7 +2,7 @@
 
 <img src="icons/logo.png" alt="AriesGeo Toolbox Logo" width="460"/>
 
-# AriesGeo Toolbox v4.0.0
+# AriesGeo Toolbox v4.0.1
 
 **A Scientific, Processing-First Geospatial Suite for QGIS 3.28+ & QGIS 4.x**
 
